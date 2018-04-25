@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 @Component
 public class MovieMapper {
 
-    public Movie mapToMovie (final MovieDto movieDto) {
+    public Movie mapToMovie(final MovieDto movieDto) {
         return new Movie(
                 movieDto.getId(),
                 movieDto.getTitle(),
@@ -30,7 +30,7 @@ public class MovieMapper {
 
     public List<String> mapToMovieTitleDtoList(final List<Movie> movieList) {
         return movieList.stream()
-                .map(m-> "Movie Id: " + m.getId() + "  Title: " + m.getTitle())
+                .map(m -> "Movie Id: " + m.getId() + "  Title: " + m.getTitle())
                 .collect(Collectors.toList());
     }
 }
