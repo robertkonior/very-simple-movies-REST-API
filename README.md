@@ -10,7 +10,7 @@ To check movie description :
 
 To add movie to moviebase shoot here JSON :
  - https://gentle-beach-74676.herokuapp.com/api/movies
-- Preparen in this way (screen from postman)
+- Prepared in this way (screen from postman)
 - https://ibb.co/bOy1Oc
 
 
