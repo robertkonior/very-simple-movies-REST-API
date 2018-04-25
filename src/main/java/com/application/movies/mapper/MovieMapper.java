@@ -30,7 +30,7 @@ public class MovieMapper {
 
     public List<String> mapToMovieTitleDtoList(final List<Movie> movieList) {
         return movieList.stream()
-                .map(m-> m.getId() + m.getTitle())
+                .map(m-> "Movie Id: " + m.getId() + "Movie Title: " + m.getTitle())
                 .collect(Collectors.toList());
     }
 }
