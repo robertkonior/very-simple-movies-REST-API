@@ -28,9 +28,9 @@ public class MovieMapper {
         );
     }
 
-    public List<MovieDto> mapToMovieDtoList(final List<Movie> movieList) {
+    public List<String> mapToMovieTitleDtoList(final List<Movie> movieList) {
         return movieList.stream()
-                .map(m-> new MovieDto(m.getId(),m.getTitle(),m.getGenre(),m.getDescription()))
+                .map(m-> m.getId() + m.getTitle())
                 .collect(Collectors.toList());
     }
 }

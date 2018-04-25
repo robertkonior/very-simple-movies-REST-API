@@ -21,8 +21,8 @@ public class MovieController {
     MovieMapper movieMapper;
 
     @RequestMapping(method = RequestMethod.GET, value = "/movies")
-    public List<MovieDto> getMovies() {
-        return movieMapper.mapToMovieDtoList(service.getAllMovies());
+    public List<String> getMovies() {
+        return movieMapper.mapToMovieTitleDtoList(service.getAllMovies());
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/movies/{movieId}")
