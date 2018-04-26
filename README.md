@@ -6,7 +6,7 @@ To check movie list :
 - https://gentle-beach-74676.herokuapp.com/api/movies
 
 To check movie description : 
-- https://gentle-beach-74676.herokuapp.com/api/movies/(here insert movie ID :)
+- https://gentle-beach-74676.herokuapp.com/api/movies/ (here insert movie ID :)
 
 To add movie to moviebase shoot here JSON :
  - https://gentle-beach-74676.herokuapp.com/api/movies
