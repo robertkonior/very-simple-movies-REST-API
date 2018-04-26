@@ -33,5 +33,6 @@ dependencies {
 	compile('org.projectlombok:lombok:1.16.18')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.postgresql:postgresql:9.4.1212')
+	compile('com.google.code.gson:gson:2.8.2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
